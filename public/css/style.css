@@ -56,7 +56,7 @@ body {
   align-items: space-evenly;
 }
 /* Card */
-.card {
+.listing-card {
   border: 0 !important;
   margin-bottom: 2rem;
 }
@@ -90,3 +90,27 @@ body {
   background-color: #fe424d !important;
   border: none !important;
 }
+
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* Show card */
+.show-img {
+  height: 30vh;
+}
+.btns {
+  display: flex;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Map */
+/* #map {
+  height: 400px;
+  width: 100vh;
+} */
