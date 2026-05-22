@@ -221,6 +221,7 @@ const sessionOption = {
 //   res.send("hi this is root route ");
 // });
 
+
 app.use(session(sessionOption));
 app.use(flash());
 

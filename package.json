@@ -1,6 +1,6 @@
 {
-  "engines":{
-    "node":"18.17.1"
+  "engines": {
+    "node": "24.3.0"
   },
   "name": "airbnb-project",
   "version": "1.0.0",
