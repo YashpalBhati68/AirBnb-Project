@@ -1073,7 +1073,6 @@ This project is an **educational Airbnb-inspired application** created for learn
 
 ⭐ If you like this project, consider giving it a star!
 
-<<<<<<< HEAD
 
 # </div>
 
