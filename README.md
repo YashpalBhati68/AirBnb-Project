@@ -1057,7 +1057,7 @@ I enjoy building full-stack applications, solving programming problems and learn
 ### Connect With Me
 
 * 💻 GitHub: [YashpalBhati68](https://github.com/YashpalBhati68)
-* 🔗 LinkedIn: Add your LinkedIn profile here
+* 🔗 LinkedIn: https://www.linkedin.com/in/yashpal-bhati-028064294?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
 ---
 
@@ -1078,7 +1078,7 @@ Your feedback is always welcome!
 
 This project is an **educational Airbnb-inspired application** created for learning and portfolio purposes.
 
-It is not affiliated with, sponsored by, or endorsed by Airbnb.
+
 
 ---
 
