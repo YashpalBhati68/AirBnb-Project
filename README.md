@@ -738,7 +738,6 @@ http://localhost:8080
 
 ![Location / Map](./screenshots/map.png)
 
-
 # 🎯 Challenges & Solutions
 
 Building this project helped me solve several practical backend and full-stack development problems.
@@ -1043,6 +1042,7 @@ I enjoy building full-stack applications, solving programming problems and learn
 
 - 💻 GitHub: [YashpalBhati68](https://github.com/YashpalBhati68)
 - 🔗 LinkedIn: https://www.linkedin.com/in/yashpal-bhati-028064294?utm_source=share_via&utm_content=profile&utm_medium=member_android
+- 🔗 Live Website: [WanderHome Rental Project](https://yash-airbnb-project.onrender.com/listings)
 
 ---
 
@@ -1073,8 +1073,6 @@ This project is an **educational Airbnb-inspired application** created for learn
 
 ⭐ If you like this project, consider giving it a star!
 
-
 # </div>
 
 </div>
-
