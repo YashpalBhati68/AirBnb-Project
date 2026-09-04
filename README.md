@@ -714,45 +714,30 @@ http://localhost:8080
 
 # 📸 Screenshots
 
-> Add your actual screenshots to the repository and update the paths below.
-
 ### 🏠 Home / Listings
 
-```md
 ![Home Page](./screenshots/home.png)
-```
 
 ### 🏡 Listing Details
 
-```md
 ![Listing Details](./screenshots/listing-details.png)
-```
 
 ### 🔐 Login
 
-```md
 ![Login Page](./screenshots/login.png)
-```
 
 ### 📝 Create Listing
 
-```md
 ![Create Listing](./screenshots/create-listing.png)
-```
 
 ### ⭐ Reviews
 
-```md
 ![Reviews](./screenshots/reviews.png)
-```
 
 ### 📍 Location / Map
 
-```md
-![Map](./screenshots/map.png)
-```
+![Location / Map](./screenshots/map.png)
 
----
 
 # 🎯 Challenges & Solutions
 
