@@ -6,12 +6,12 @@
 
 <br/>
 
-[![Node.js](https://img.shields.io/badge/Node.js-24.3.0-339933?style=for-the-badge\&logo=node.js\&logoColor=white)](https://nodejs.org/)
-[![Express.js](https://img.shields.io/badge/Express.js-4.x-000000?style=for-the-badge\&logo=express\&logoColor=white)](https://expressjs.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)](https://www.mongodb.com/)
-[![EJS](https://img.shields.io/badge/EJS-Template%20Engine-B4CA65?style=for-the-badge\&logo=ejs\&logoColor=white)](https://ejs.co/)
-[![Cloudinary](https://img.shields.io/badge/Cloudinary-Image%20Storage-3448C5?style=for-the-badge\&logo=cloudinary\&logoColor=white)](https://cloudinary.com/)
-[![Passport.js](https://img.shields.io/badge/Passport.js-Authentication-34E27A?style=for-the-badge\&logo=passport\&logoColor=black)](https://www.passportjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-24.3.0-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-4.x-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![EJS](https://img.shields.io/badge/EJS-Template%20Engine-B4CA65?style=for-the-badge&logo=ejs&logoColor=white)](https://ejs.co/)
+[![Cloudinary](https://img.shields.io/badge/Cloudinary-Image%20Storage-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)](https://cloudinary.com/)
+[![Passport.js](https://img.shields.io/badge/Passport.js-Authentication-34E27A?style=for-the-badge&logo=passport&logoColor=black)](https://www.passportjs.org/)
 
 <br/>
 
@@ -23,27 +23,27 @@
 
 ## 📌 Table of Contents
 
-* [Overview](#-overview)
-* [Why I Built This](#-why-i-built-this)
-* [Key Features](#-key-features)
-* [Application Workflow](#-application-workflow)
-* [Architecture](#-architecture)
-* [Tech Stack](#-tech-stack)
-* [Project Structure](#-project-structure)
-* [Authentication & Authorization](#-authentication--authorization)
-* [Image Upload Architecture](#-image-upload-architecture)
-* [Database Design](#-database-design)
-* [CRUD Operations](#-crud-operations)
-* [Validation & Error Handling](#-validation--error-handling)
-* [Environment Variables](#-environment-variables)
-* [Installation](#-installation)
-* [Running Locally](#-running-locally)
-* [Screenshots](#-screenshots)
-* [Challenges & Solutions](#-challenges--solutions)
-* [What I Learned](#-what-i-learned)
-* [Future Improvements](#-future-improvements)
-* [Project Highlights](#-project-highlights)
-* [Author](#-author)
+- [Overview](#-overview)
+- [Why I Built This](#-why-i-built-this)
+- [Key Features](#-key-features)
+- [Application Workflow](#-application-workflow)
+- [Architecture](#-architecture)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Authentication & Authorization](#-authentication--authorization)
+- [Image Upload Architecture](#-image-upload-architecture)
+- [Database Design](#-database-design)
+- [CRUD Operations](#-crud-operations)
+- [Validation & Error Handling](#-validation--error-handling)
+- [Environment Variables](#-environment-variables)
+- [Installation](#-installation)
+- [Running Locally](#-running-locally)
+- [Screenshots](#-screenshots)
+- [Challenges & Solutions](#-challenges--solutions)
+- [What I Learned](#-what-i-learned)
+- [Future Improvements](#-future-improvements)
+- [Project Highlights](#-project-highlights)
+- [Author](#-author)
 
 ---
 
@@ -65,18 +65,18 @@ I built this project to move beyond basic CRUD applications and understand how a
 
 The main goals were to learn and implement:
 
-* Full-stack application architecture
-* RESTful routing
-* MVC architecture
-* MongoDB relationships
-* Authentication
-* Authorization
-* Session management
-* Image upload and cloud storage
-* Server-side validation
-* Middleware
-* Error handling
-* Dynamic server-side rendering
+- Full-stack application architecture
+- RESTful routing
+- MVC architecture
+- MongoDB relationships
+- Authentication
+- Authorization
+- Session management
+- Image upload and cloud storage
+- Server-side validation
+- Middleware
+- Error handling
+- Dynamic server-side rendering
 
 Instead of keeping everything inside a single server file, the application separates responsibilities into different modules.
 
@@ -86,13 +86,13 @@ Instead of keeping everything inside a single server file, the application separ
 
 ## 👤 User Authentication
 
-* User registration
-* User login
-* User logout
-* Passport.js Local Strategy
-* Session-based authentication
-* Persistent sessions using MongoDB
-* Protected routes
+- User registration
+- User login
+- User logout
+- Passport.js Local Strategy
+- Session-based authentication
+- Persistent sessions using MongoDB
+- Protected routes
 
 ---
 
@@ -100,13 +100,13 @@ Instead of keeping everything inside a single server file, the application separ
 
 Users can:
 
-* View all available listings
-* View details of a particular listing
-* Create a new listing
-* Edit an existing listing
-* Delete a listing
-* Upload listing images
-* Associate listings with their owners
+- View all available listings
+- View details of a particular listing
+- Create a new listing
+- Edit an existing listing
+- Delete a listing
+- Upload listing images
+- Associate listings with their owners
 
 ---
 
@@ -116,12 +116,12 @@ Users can interact with listings through reviews.
 
 Features include:
 
-* Add a review
-* Add rating
-* Display reviews
-* Delete reviews
-* Associate reviews with users
-* Associate reviews with listings
+- Add a review
+- Add rating
+- Display reviews
+- Delete reviews
+- Associate reviews with users
+- Associate reviews with listings
 
 ---
 
@@ -177,12 +177,12 @@ This helps prevent invalid listing/review data from reaching the database.
 
 The application uses flash messages to provide feedback after actions such as:
 
-* Login
-* Logout
-* Creating a listing
-* Updating a listing
-* Deleting a listing
-* Validation failures
+- Login
+- Logout
+- Creating a listing
+- Updating a listing
+- Deleting a listing
+- Validation failures
 
 ---
 
@@ -634,7 +634,7 @@ Conceptually:
 
 ```javascript
 wrapAsync(async (req, res) => {
-    // async controller logic
+  // async controller logic
 });
 ```
 
@@ -836,53 +836,53 @@ Through this project, I gained practical experience with:
 
 ### Backend Development
 
-* Node.js
-* Express.js
-* RESTful routing
-* Middleware
-* Controllers
-* Error handling
-* Async operations
+- Node.js
+- Express.js
+- RESTful routing
+- Middleware
+- Controllers
+- Error handling
+- Async operations
 
 ### Database
 
-* MongoDB
-* MongoDB Atlas
-* Mongoose
-* Schema design
-* Relationships
-* CRUD operations
+- MongoDB
+- MongoDB Atlas
+- Mongoose
+- Schema design
+- Relationships
+- CRUD operations
 
 ### Authentication
 
-* Passport.js
-* Local authentication
-* Sessions
-* Authentication middleware
-* Authorization
+- Passport.js
+- Local authentication
+- Sessions
+- Authentication middleware
+- Authorization
 
 ### File Management
 
-* Multer
-* Cloudinary
-* Cloud image storage
+- Multer
+- Cloudinary
+- Cloud image storage
 
 ### Frontend
 
-* HTML
-* CSS
-* JavaScript
-* EJS
-* EJS-Mate
-* Dynamic server-side rendering
+- HTML
+- CSS
+- JavaScript
+- EJS
+- EJS-Mate
+- Dynamic server-side rendering
 
 ### Development Practices
 
-* MVC architecture
-* Environment variables
-* Git & GitHub
-* Modular code organization
-* Server-side validation
+- MVC architecture
+- Environment variables
+- Git & GitHub
+- Modular code organization
+- Server-side validation
 
 ---
 
@@ -892,28 +892,28 @@ The current application can be extended with several production-level features.
 
 ### 🔎 Advanced Search
 
-* Search by location
-* Price range
-* Property type
-* Availability
-* Rating
+- Search by location
+- Price range
+- Property type
+- Availability
+- Rating
 
 ### 📅 Booking System
 
 Add:
 
-* Check-in date
-* Check-out date
-* Availability management
-* Booking history
-* Booking cancellation
+- Check-in date
+- Check-out date
+- Availability management
+- Booking history
+- Booking cancellation
 
 ### 💳 Payment Integration
 
 Integrate a payment gateway such as:
 
-* Razorpay
-* Stripe
+- Razorpay
+- Stripe
 
 ### ❤️ Wishlist
 
@@ -923,37 +923,37 @@ Allow users to save their favorite properties.
 
 Add:
 
-* Booking notifications
-* Review notifications
-* Listing updates
-* Email notifications
+- Booking notifications
+- Review notifications
+- Listing updates
+- Email notifications
 
 ### 👤 Enhanced User Profiles
 
 Add:
 
-* Profile picture
-* User bio
-* Account settings
-* User's listings
-* User's reviews
+- Profile picture
+- User bio
+- Account settings
+- User's listings
+- User's reviews
 
 ### 🧪 Testing
 
 Add automated testing using tools such as:
 
-* Jest
-* Supertest
+- Jest
+- Supertest
 
 ### 🔐 Additional Security
 
 Future security improvements could include:
 
-* Rate limiting
-* Helmet
-* CSRF protection
-* Input sanitization
-* Stronger cookie configuration
+- Rate limiting
+- Helmet
+- CSRF protection
+- Input sanitization
+- Stronger cookie configuration
 
 ---
 
@@ -1056,8 +1056,8 @@ I enjoy building full-stack applications, solving programming problems and learn
 
 ### Connect With Me
 
-* 💻 GitHub: [YashpalBhati68](https://github.com/YashpalBhati68)
-* 🔗 LinkedIn: https://www.linkedin.com/in/yashpal-bhati-028064294?utm_source=share_via&utm_content=profile&utm_medium=member_android
+- 💻 GitHub: [YashpalBhati68](https://github.com/YashpalBhati68)
+- 🔗 LinkedIn: https://www.linkedin.com/in/yashpal-bhati-028064294?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
 ---
 
@@ -1065,10 +1065,10 @@ I enjoy building full-stack applications, solving programming problems and learn
 
 If you found this project useful or interesting:
 
-* ⭐ Star the repository
-* 🍴 Fork the project
-* 🐛 Open an issue
-* 💡 Suggest improvements
+- ⭐ Star the repository
+- 🍴 Fork the project
+- 🐛 Open an issue
+- 💡 Suggest improvements
 
 Your feedback is always welcome!
 
@@ -1077,8 +1077,6 @@ Your feedback is always welcome!
 # 📄 Disclaimer
 
 This project is an **educational Airbnb-inspired application** created for learning and portfolio purposes.
-
-
 
 ---
 
@@ -1091,7 +1089,8 @@ This project is an **educational Airbnb-inspired application** created for learn
 ⭐ If you like this project, consider giving it a star!
 
 <<<<<<< HEAD
-</div>
-=======
+
+# </div>
+
 </div>
 >>>>>>> 5aefdc4 (Add premium README and project screenshots)
